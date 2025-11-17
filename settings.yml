@@ -1,0 +1,14 @@
+restrict_for_groups:
+  type: list
+  list_type: compact
+  default: ""
+  description: "Enter group names to show to specific groups. (required)"
+restricted_like_icon: 
+  default: "heart-circle-minus"
+  type: string
+  description: "Restricted like icon"
+svg_icons: 
+  default: "heart-circle-minus"
+  type: "list"
+  list_type: "compact"
+  description: "List of FontAwesome 6 icons used in this theme component"
