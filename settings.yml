@@ -2,7 +2,7 @@ restrict_for_groups:
   type: list
   list_type: compact
   default: ""
-  description: "Enter group names to show to specific groups. (required)"
+  description: "Enter group names to restrict to specific groups. (required)"
 restricted_like_icon: 
   default: "heart-circle-minus"
   type: string
