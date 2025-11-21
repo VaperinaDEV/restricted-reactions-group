@@ -1,8 +1,8 @@
 restrict_for_groups:
   type: list
-  list_type: compact
+  list_type: group
   default: ""
-  description: "Enter group names to restrict to specific groups. (required)"
+  description: "Select groups to disable reaction function. (required)"
 restricted_like_icon: 
   default: "heart-circle-minus"
   type: string
